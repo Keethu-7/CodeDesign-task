@@ -6,9 +6,9 @@ A simple React-based project designed for practicing component styling and layou
 
 ## Tech Stack
 
-- React (functional components, hooks)  
-- CSS (custom styling)  
-- JavaScript (ES6+)  
+- React 
+- CSS
+- JavaScript  
 
 ---
 
