@@ -1,0 +1,41 @@
+.export-button {
+  /* Size */
+  min-width: 130px;
+  height: 32px;
+
+  /* Padding (from Figma: 8px top/bottom, 16px left/right) */
+  padding: 8px 16px;
+
+  /* Background gradient */
+  background: linear-gradient(180deg, #444444 0%, #333333 100%);
+
+  /* Text */
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600; /* SemiBold */
+  line-height: 100%; /* 1.0 */
+  letter-spacing: 0.03em; /* 3% */
+  text-align: center;
+  color: #F6F6F6;
+
+  /* Border */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+
+  /* Shadow */
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+
+  /* Cursor + hover transition */
+  cursor: pointer;
+  transition: background 0.2s ease;
+
+  /* Flex to center text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hover effect */
+.export-button:hover {
+  background: linear-gradient(180deg, #555555 0%, #3d3d3d 100%);
+}
